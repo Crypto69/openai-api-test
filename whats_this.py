@@ -65,7 +65,7 @@ response = client.audio.speech.create(
 # Save the response to a mp3 file
 response.stream_to_file(speech_file_path)
 
-# Initialize pygame to play the MP3 file
+# Initialize pygame to play the MP3 file individuals man man
 pygame.init()
 
 # Load the MP3 file
